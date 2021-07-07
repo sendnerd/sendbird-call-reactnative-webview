@@ -29,7 +29,7 @@ import {
 import { WebView } from 'react-native-webview'
 
 const uri = 'https://sample.calls.sendbird.com/login?referrer=%2Fdirect-call%2Ffull-screen'
-const appId = 'A87436DE-5C89-49B2-8883-9A45835CA6F2'
+const appId = ''
 const runOnLoad = `document.getElementById('appIdInput').value = "${appId}";`
 
 const App = () => {
